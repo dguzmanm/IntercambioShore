@@ -1,0 +1,21 @@
+{
+  "name": "intercambio-backend",
+  "version": "0.0.1",
+  "description": "IntercambioBackend",
+  "main": "app.js",
+  "author": {
+    "name": "IAESTE Spain"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  },
+  "engines": {
+    "node": "6.2.2",
+    "npm": "3.9.5"
+  },
+  "scripts": {
+    "start" : "node app.js"
+  }
+}
