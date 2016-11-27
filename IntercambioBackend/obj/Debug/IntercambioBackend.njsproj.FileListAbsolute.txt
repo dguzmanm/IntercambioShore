@@ -1,0 +1,2 @@
+C:\Users\Daniel\Documents\Coding\IntercambioShore\IntercambioBackend\obj\Debug\IntercambioBackend.njsprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Coding\IntercambioShore\IntercambioBackend\bin\Microsoft.NodejsTools.WebRole.dll
