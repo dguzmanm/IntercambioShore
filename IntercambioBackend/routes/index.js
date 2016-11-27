@@ -1,17 +1,27 @@
 "use strict";
 function index(req, res) {
-    res.render('index', { title: 'Express', year: new Date().getFullYear() });
+    res.render('index', { title: 'Prácticas', year: new Date().getFullYear() });
 }
 exports.index = index;
 ;
-function about(req, res) {
-    res.render('about', { title: 'About', year: new Date().getFullYear(), message: 'Your application description page' });
+function intercambiar(req, res) {
+    res.render('intercambiar', { title: 'Intercambiar práctica', year: new Date().getFullYear() });
 }
-exports.about = about;
+exports.intercambiar = intercambiar;
 ;
-function contact(req, res) {
-    res.render('contact', { title: 'Contact', year: new Date().getFullYear(), message: 'Your contact page' });
+function estado(req, res) {
+    res.render('estado', { title: 'Estado de intercambio', year: new Date().getFullYear(), message: '' });
 }
-exports.contact = contact;
+exports.estado = estado;
+;
+function editar(req, res) {
+    res.render('editar', { title: 'Editar intercambio', year: new Date().getFullYear(), message: '' });
+}
+exports.editar = editar;
+;
+function historial(req, res) {
+    res.render('historial', { title: 'Historial de intercambios', year: new Date().getFullYear(), message: '' });
+}
+exports.historial = historial;
 ;
 //# sourceMappingURL=index.js.map
